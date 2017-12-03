@@ -8,7 +8,6 @@
  *              This software is released under the MIT License.
  */
 
-
 /**
  * @name    コマンド
  */
@@ -57,7 +56,8 @@ void setup()
 }
 
 
-void loop() {
+void loop()
+{
     /* コマンド受信 */
     while ((Serial.available() > 0) && (cmdRecievedBytes < CMD_SIZE)) {
         cmd[cmdRecievedBytes] = Serial.read();

@@ -14,7 +14,7 @@
 
 
 /**
- * @typedef SerialPort_st
+ * @struct  SerialPort_st
  * @brief   シリアルポート情報構造体
  */
 struct SerialPort_st {

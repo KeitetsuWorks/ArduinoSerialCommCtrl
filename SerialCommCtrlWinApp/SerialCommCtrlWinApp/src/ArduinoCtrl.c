@@ -70,7 +70,7 @@
 
 
 /**
- * @typedef Arduino_st
+ * @struct  Arduino_st
  * @brief   Arduinoî•ñ\‘¢‘Ì
  */
 struct Arduino_st {

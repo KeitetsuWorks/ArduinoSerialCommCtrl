@@ -19,27 +19,33 @@
     <Filter Include="ヘッダー ファイル\SerialPort">
       <UniqueIdentifier>{20f286ca-0e52-4af7-b2e8-f453ff7b588c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="ソース ファイル\ArduinoCtrl">
+      <UniqueIdentifier>{e5b16600-7aa8-4a91-a032-9b165360674b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\ArduinoCtrl">
+      <UniqueIdentifier>{8ea0a091-4d67-42df-a44b-00cd0d588d2b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="SerialPort\src\SerialPort.c">
       <Filter>ソース ファイル\SerialPort</Filter>
     </ClCompile>
-    <ClCompile Include="src\ArduinoCtrl.c">
-      <Filter>ソース ファイル</Filter>
-    </ClCompile>
     <ClCompile Include="src\main.c">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
+    <ClCompile Include="ArduinoCtrl\src\ArduinoCtrl.c">
+      <Filter>ソース ファイル\ArduinoCtrl</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="include\ArduinoCtrl.h">
-      <Filter>ヘッダー ファイル</Filter>
-    </ClInclude>
     <ClInclude Include="SerialPort\include\SerialPort.h">
       <Filter>ヘッダー ファイル\SerialPort</Filter>
     </ClInclude>
     <ClInclude Include="resource.h">
       <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="ArduinoCtrl\include\ArduinoCtrl.h">
+      <Filter>ヘッダー ファイル\ArduinoCtrl</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

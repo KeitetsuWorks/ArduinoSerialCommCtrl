@@ -11,36 +11,36 @@
 /**
  * @name    コマンド
  */
-/*! @{ */
-#define CMD_SIZE            2   /*!< コマンドサイズ */
-#define CMD_TYPE            0   /*!< コマンド構成データ: コマンド種類 */
-#define CMD_PIN             1   /*!< コマンド構成データ: ピン番号 */
-#define CMD_WRITE_LOW       0   /*!< コマンド種類: LOW書込み */
-#define CMD_WRITE_HIGH      1   /*!< コマンド種類: HIGH書込み */
-#define CMD_WRITE_TOGGLE    2   /*!< コマンド種類: ピン状態切替え */
-#define CMD_READ            4   /*!< コマンド種類: ピン状態読込み */
-/*! @} */
+/** @{ */
+#define CMD_SIZE            2   /**< コマンドサイズ */
+#define CMD_TYPE            0   /**< コマンド構成データ: コマンド種類 */
+#define CMD_PIN             1   /**< コマンド構成データ: ピン番号 */
+#define CMD_WRITE_LOW       0   /**< コマンド種類: LOW書込み */
+#define CMD_WRITE_HIGH      1   /**< コマンド種類: HIGH書込み */
+#define CMD_WRITE_TOGGLE    2   /**< コマンド種類: ピン状態切替え */
+#define CMD_READ            4   /**< コマンド種類: ピン状態読込み */
+/** @} */
 
 /**
  * @name    レスポンス
  */
-/*! @{ */
-#define RES_SIZE            2   /*!< レスポンスサイズ */
-#define RES_PIN             0   /*!< レスポンス構成データ: ピン番号 */
-#define RES_PIN_VALUE       1   /*!< レスポンス構成データ: ピン状態 */
-/*! @} */
+/** @{ */
+#define RES_SIZE            2   /**< レスポンスサイズ */
+#define RES_PIN             0   /**< レスポンス構成データ: ピン番号 */
+#define RES_PIN_VALUE       1   /**< レスポンス構成データ: ピン状態 */
+/** @} */
 
 /**
  * @name    ピンアサイン
  */
-/*! @{ */
-#define PIN_LED             13  /*!< ピン番号: LED */
-/*! @} */
+/** @{ */
+#define PIN_LED             13  /**< ピン番号: LED */
+/** @} */
 
 
-uint8_t cmd[CMD_SIZE];          /*!< コマンド */
-uint8_t res[RES_SIZE];          /*!< レスポンス */
-uint8_t cmdRecievedBytes;       /*!< コマンド受信済バイト数 */
+uint8_t cmd[CMD_SIZE];          /**< コマンド */
+uint8_t res[RES_SIZE];          /**< レスポンス */
+uint8_t cmdRecievedBytes;       /**< コマンド受信済バイト数 */
 
 
 void setup()

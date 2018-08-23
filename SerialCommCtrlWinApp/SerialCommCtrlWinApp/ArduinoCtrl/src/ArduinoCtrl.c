@@ -21,53 +21,53 @@
 /**
  * @name    キー
  */
-/*! @{ */
-#define KEY_ESC             0x1B    /*!< ESCキー */
-/*! @} */
+/** @{ */
+#define KEY_ESC             0x1B    /**< ESCキー */
+/** @} */
 
 /**
  * @name    コマンド
  */
-/*! @{ */
-#define CMD_SIZE            2       /*!< コマンドサイズ */
-#define CMD_TYPE            0       /*!< コマンド構成データ: コマンド種類 */
-#define CMD_PIN             1       /*!< コマンド構成データ: ピン番号 */
-#define CMD_WRITE_LOW       0       /*!< コマンド種類: LOW書込み */
-#define CMD_WRITE_HIGH      1       /*!< コマンド種類: HIGH書込み */
-#define CMD_WRITE_TOGGLE    2       /*!< コマンド種類: ピン状態切替え */
-#define CMD_READ            4       /*!< コマンド種類: ピン状態読込み */
-/*! @} */
+/** @{ */
+#define CMD_SIZE            2       /**< コマンドサイズ */
+#define CMD_TYPE            0       /**< コマンド構成データ: コマンド種類 */
+#define CMD_PIN             1       /**< コマンド構成データ: ピン番号 */
+#define CMD_WRITE_LOW       0       /**< コマンド種類: LOW書込み */
+#define CMD_WRITE_HIGH      1       /**< コマンド種類: HIGH書込み */
+#define CMD_WRITE_TOGGLE    2       /**< コマンド種類: ピン状態切替え */
+#define CMD_READ            4       /**< コマンド種類: ピン状態読込み */
+/** @} */
 
 /**
  * @name    レスポンス
  */
-/*! @{ */
-#define RES_SIZE            2       /*!< レスポンスサイズ */
-#define RES_PIN             0       /*!< レスポンス構成データ: ピン番号 */
-#define RES_PIN_VALUE       1       /*!< レスポンス構成データ: ピン状態 */
-/*! @} */
+/** @{ */
+#define RES_SIZE            2       /**< レスポンスサイズ */
+#define RES_PIN             0       /**< レスポンス構成データ: ピン番号 */
+#define RES_PIN_VALUE       1       /**< レスポンス構成データ: ピン状態 */
+/** @} */
 
 /**
  * @name    ピンアサイン
  */
-/*! @{ */
-#define PIN_LED             13      /*!< ピン番号: LED */
-/*! @} */
+/** @{ */
+#define PIN_LED             13      /**< ピン番号: LED */
+/** @} */
 
 /**
  * @name    ピン種類
  */
-/*! @{ */
-#define PIN_TYPE_LED        0      /*!< ピン種類: LED */
-/*! @} */
+/** @{ */
+#define PIN_TYPE_LED        0       /**< ピン種類: LED */
+/** @} */
 
 /**
  * @name    LED
  */
-/*! @{ */
-#define LED_OFF             0       /*!< LED: 消灯 */
-#define LED_ON              1       /*!< LED: 点灯 */
-/*! @} */
+/** @{ */
+#define LED_OFF             0       /**< LED: 消灯 */
+#define LED_ON              1       /**< LED: 点灯 */
+/** @} */
 
 
 /**
@@ -75,8 +75,8 @@
  * @brief   Arduino情報構造体
  */
 struct Arduino_st {
-    SERIALPORT_T port;  /*!< シリアルポート情報構造体 */
-    LPCTSTR portName;   /*!< シリアルポート名 */
+    SERIALPORT_T port;  /**< シリアルポート情報構造体 */
+    LPCTSTR portName;   /**< シリアルポート名 */
 };
 
 

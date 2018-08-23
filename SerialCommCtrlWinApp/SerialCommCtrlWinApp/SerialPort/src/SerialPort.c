@@ -18,8 +18,8 @@
  * @brief   シリアルポート情報構造体
  */
 struct SerialPort_st {
-    HANDLE handle;  /*!< シリアルポートのハンドラ */
-    LPCTSTR name;   /*!< シリアルポート名 */
+    HANDLE handle;  /**< シリアルポートのハンドラ */
+    LPCTSTR name;   /**< シリアルポート名 */
 };
 
 
